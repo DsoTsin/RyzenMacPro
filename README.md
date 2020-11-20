@@ -2,29 +2,23 @@
 
 <img src="about.png" alt="about" width="500"/>
 
-This repository provides the basic EFI folder to run macOS Catalina on an ASRock Phantom Gaming ITX/TB3 motherboard. The default provided currently using a Ryzen 9 3900X 12 Core CPU and a Radeon RX 5500 XT. For a short guide to using different CPUs and GPUs see below (all kexts specific to those are named explicitely).
+This repository provides the basic EFI folder to run macOS Catalina on an ASRock Phantom Gaming ITX/TB3 motherboard. The default provided currently using a Ryzen 9 3950X 16 Core CPU and a Radeon RX 5700 XT. For a short guide to using different CPUs and GPUs see below (all kexts specific to those are named explicitely).
 This is intended as a reference and to share improvements for similar build, not as an out of the box EFI to download. It is highly recommended to start with a vanilla OpenCore and following OpenCore Vanilla Guide first.
 
 ## Ryzen Mac Pro build
 
-**Prozessor:** AMD Ryzen 9 3900X  
-**Cooler:** Custom Water Cooling  
-**Motherboard:** AsRock X570 Phantom Gaming ITX/TB3 (BIOS 2.60)  
-**WIFI/BT**: Broadcom BCM94360NG  
-**Memory:** Kingston HyperX Predator (2x 32GB) DDR4-3600  
-**Storage:** Corsair MP600 (1000GB) M.2 NVMe PCIe 4.0  
-**Video Card:** XFX Radeon VII 16GB  
-**Power Supply:** Corsair SF600 Platinum  
-**Case:** Phanteks Enthoo Evolv Shift (Mini-ITX)  
-
-### Notes
-I've heavily modded the case to fit the Radeon VII with 3 120mm radiators in it.
-Also I've replaced the integrated Intel AX200 module with a BCM94360NG that is natively supported by macOS. 
+* **Prozessor:** AMD Ryzen 9 3950X
+* **Motherboard:** AsRock X570 Phantom Gaming ITX/TB3 (BIOS 2.60)  
+* **WIFI/BT**: Intel AX 200 WIFI 6
+* **Memory:** Kingston HyperX Predator (2x 32GB) DDR4-3600  
+* **Storage:** Corsair MP600 (1000GB) M.2 NVMe PCIe 4.0  
+* **Video Card:** XFX Radeon RX 5700 XT  
+* **Power Supply:** Corsair SF600 Platinum  
 
 ## Versions
 **BIOS:** 2.00 / 2.30  / 2.60 / 2.70 / 2.71
-**OpenCore:** 0.6.3  
-**macOS:** 11.0.1 
+**OpenCore:** 0.6.4  
+**macOS:** 11.1 Beta 
 
 ## Content
 
@@ -142,14 +136,11 @@ Currently in use:
  displaysleep         10
 ```
 
-
-
 If it does not entering sleep properly there are some things to be tried:
 
 - Disable "Allow Bluetooth devices to wake this computer" in Advanced Bluetooth settings (may require the use of the power button if keyboard and mouse are connected through standard bluetooth)
 - Disconnect specific bluetooth devices (like monitor speakers and the like)
 - Turn off monitor before entering sleep
-
 
 ## Notes
 
