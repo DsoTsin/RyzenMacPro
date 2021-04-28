@@ -1,6 +1,12 @@
-# Ryzen Mac Pro - OpenCore EFI for ASRock X570 ITX
+# Ryzen Mac Pro - OpenCore EFI for ASRock X570 ITX (R9 3950X + RX 6800)
 
-<img src="about.png" alt="about" width="500"/>
+<img src="about.png" alt="about" width="1000"/>
+
+---
+
+## Raytracing on macOS 11.4 beta1 (RX6800)
+
+<img src="ray_tracing_on_macOS_rx6800.png" alt="about" width="1000"/>
 
 This repository provides the basic EFI folder to run macOS Catalina on an ASRock Phantom Gaming ITX/TB3 motherboard. The default provided currently using a Ryzen 9 3950X 16 Core CPU and a Radeon RX 5700 XT. For a short guide to using different CPUs and GPUs see below (all kexts specific to those are named explicitely).
 This is intended as a reference and to share improvements for similar build, not as an out of the box EFI to download. It is highly recommended to start with a vanilla OpenCore and following OpenCore Vanilla Guide first.
