@@ -8,17 +8,17 @@ This is intended as a reference and to share improvements for similar build, not
 ## Ryzen Mac Pro build
 
 * **Prozessor:** AMD Ryzen 9 3950X
-* **Motherboard:** AsRock X570 Phantom Gaming ITX/TB3 (BIOS 2.60)  
+* **Motherboard:** AsRock X570 Phantom Gaming ITX/TB3 (BIOS 3.0)  
 * **WIFI/BT**: Intel AX 200 WIFI 6
 * **Memory:** Kingston HyperX Predator (2x 32GB) DDR4-3600  
 * **Storage:** Corsair MP600 (1000GB) M.2 NVMe PCIe 4.0  
-* **Video Card:** XFX Radeon RX 5700 XT  
+* **Video Card:** Radeon RX 6800 XT  
 * **Power Supply:** Corsair SF600 Platinum  
 
 ## Versions
-**BIOS:** 2.00 / 2.30  / 2.60 / 2.70 / 2.71
-**OpenCore:** 0.6.4  
-**macOS:** 11.1 Beta 
+**BIOS:** 2.00 / 2.30  / 2.60 / 2.70 / 2.71 / 3.0
+**OpenCore:** 0.6.8  
+**macOS:** 11.4 Beta 1 
 
 ## Content
 
